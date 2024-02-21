@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	color:pink;
+	font-family: Chivo;
+	text-shadow: 0 0 10px;
+ }
+a:hover{
+	color:red;
+	color:black;
+}
+.center-text {
+    text-align: center;
+}
+p{
+	color:yellow;
+	text-align: center;
+}
+h2 {
+	color:black;
+}
+a{ 
+	text-decoration: none;
+	border: 2px solid black;
+    border-radius: 25px;
+    padding: 14px 30px;
+    color:black;
+}
+.banner{
+	background-image:url(images/ocean.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+	text-align:center;
+}
+	
+.cards{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap:15px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom:60px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+	background:#F6CBCB;
+	box-shadow: 0 0 25px rgba(0,0,0,0.8);
+	width: 225px;
+	height: 330px;
+	padding-left:15px;
+	padding-top: 15px;
+	margin:8px;
+}
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.footer{
+	text-align: center;
+}
